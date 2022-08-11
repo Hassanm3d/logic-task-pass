@@ -1,0 +1,32 @@
+Q1/
+String_o = "hello world"
+F_char= input('char: ')
+String_n = string_o.replace(F_char,  '')
+print(string_n)
+
+...
+
+Q2/
+L_num = int(input('lower number: '))
+Up_num = int(input('higher number: '))
+
+print("Prime number from", L_num, "to", Up_num, "are:")
+
+for num in range(L_num, Up_num + 1):
+   than 1
+   if num > 1:
+       for i in range(2, num):
+           if (num % i) == 0:
+               break
+       else:
+           print(num)
+           
+...
+
+
+Q3/
+String_ex="hassan maad"
+Char_ex= input('the character you want : ')
+counting = String_ex.count(Char_ex) 
+
+print ('The count of ' + Char_ex + ' is: ' + str(counting))
